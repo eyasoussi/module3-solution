@@ -1,1 +1,67 @@
+body {
+	background-color: gray ;
+	font-size: 16px;
+    color: #fff;
+}
+.navbar-brand h1 {
+	text-transform: uppercase;
+	font-family: 'Lora', serif;
+	color: black ;
+}
+.navbar-brand a {
+	text-decoration: none;
+}
+#nav-head {
+	background-color: pink;
+}
+.container button.navbar-toggler  {
+  border: 1px solid #61122f;
+}
+span.navbar-toggler-icon {
+background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0,0,0, 0.5)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+.navbar .nav-item {
+	color: black;
+	text-align: center;
+}
+.navbar-collapse {
+	background-color: bisque ;
+}
+.dropdown {
+            position: static !important;
+}          
+.dropdown-menu {
+            box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15)!important;
+            margin-top: 0px !important;
+            width: 100% !important;
 
+}
+div > p.text-center {
+	font-size: 30px;
+	font-weight: bold;
+}  
+p > span{
+	color: red;
+	text-align: center;
+	font-size: 20px ;
+	position: absolute;
+	top: 0;
+	right: 46%;
+	font-weight: bold; 
+} 
+#box {
+	background-color: lightgray ;
+	position: relative;
+
+}    
+#box p {
+	color: black ;
+}
+a {
+text-decoration: none;
+color: red ;	
+}
+a:hover {
+	color: white ;
+	text-decoration: none;
+}
